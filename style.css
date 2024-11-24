@@ -23,6 +23,11 @@ a {
     text-decoration: none;
 }
 
+hr {
+    height: 1px;
+    background-color: #D2D5DA;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -37,11 +42,13 @@ a {
     height: 80%;
 }
 
-.question1 {
-    height: 50%;    
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem 10rem;
+    height: 40%;  
+    
 }
 
-.question2 {
-    height: 50%;
-}
 
